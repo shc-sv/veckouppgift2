@@ -1,11 +1,14 @@
-from Q2 import q2
+# Veckouppgift 2 made by Shu-Hui Chen (2025-01-14)
+
+from Q2 import balder
+from Q3 import sport_result
 
 def print_hi(name):
     print(f'Hej, {name}!')  # Press Ctrl+F8 to toggle the breakpoint.
 
 # Q1
 # Skriptet gör: Interaktion med användare, rabbatberäkning och resultat(respons)
-def q1():
+def discount_calculation():
     is_member = False
     level1 = 100
     level2 = 300
@@ -38,15 +41,19 @@ def q1():
     print("Efter rabbater blir priset... " + str(final_price))
 
 if __name__ == '__main__':
+    #'''
     print_hi('kära kund')
     print("")
     print("Q1:")
-    q1()
+    discount_calculation()
+    
     print("")
     print("Q2:")
-    q2()
+    balder()
+    #'''
     print("")
     print("Q3:")
+    sport_result()
 
 
 

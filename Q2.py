@@ -10,7 +10,7 @@ Tre värden handlar om att kontrollera både om längden är större än 130 cm,
 129 cm är ett bra testvärde för att bekräfta att programmet korrekt identifierar gränsvärdet.
 '''
 
-def q2():
+def balder():
     height = input("Hur lång är du? Ange här (i cm): ")
     height = int(height)
     if height >= 130:
