@@ -2,6 +2,7 @@
 
 from Q2 import balder
 from Q3 import sport_result
+from Q4 import temperaturomvandling
 
 def print_hi(name):
     print(f'Hej, {name}!')  # Press Ctrl+F8 to toggle the breakpoint.
@@ -41,7 +42,7 @@ def discount_calculation():
     print("Efter rabbater blir priset... " + str(final_price))
 
 if __name__ == '__main__':
-    #'''
+    '''
     print_hi('kära kund')
     print("")
     print("Q1:")
@@ -50,10 +51,15 @@ if __name__ == '__main__':
     print("")
     print("Q2:")
     balder()
-    #'''
+
     print("")
     print("Q3:")
     sport_result()
+    '''
+    print("")
+    print("Q4:")
+    temperaturomvandling()
+
 
 
 
