@@ -6,7 +6,7 @@ def temperaturomvandling():
     # Version 1
     c = input("Skriv in en temperatur i grader Celsius: ")
     c = float(c)
-    f = 1.8 * c + 32
+    f = round(1.8 * c + 32, 1)
     print(f"Det blir {f} grader Fahrenheit.")
 
     # Version 2
@@ -26,3 +26,7 @@ def temperaturomvandling():
         print("Tyvärr, felinmatning! Du kan bara välja mellan Celsius (C) och Fahrenheit (F).")
 
     # Version 3
+    if c < 10:
+        print("Se till att ha vinterkläder på dig, temperaturen är låg idag.")
+    elif c >= 20:
+        print("Det är dags att packa badkläder – solen väntar!")
