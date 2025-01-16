@@ -43,7 +43,7 @@ def discount_calculation():
     print("Efter rabatt blir priset... " + str(final_price))
 
 if __name__ == '__main__':
-    '''
+    #'''
     print_hi('kära kund')
     print("")
     print("Q1:")
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     print("")
     print("Q4:")
     temperaturomvandling()
-    '''
+    #'''
 
     print("")
     print("Q5:")
